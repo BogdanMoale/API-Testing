@@ -4,7 +4,7 @@ API Testing in Postman
 ----------------
 
 **Description:** 
-Get all articles about Oneplus 7t smartphone from a specific date ubtil the present day , sorted by recent first.
+Get all articles about Oneplus 7t smartphone from a specific date until the present day , sorted by recent first.
 
 **Steps to Reproduce:**
 1. Go to https://newsapi.org/v2/everything?q=Oneplus7t&from=2023-06-31&sortBy=publishedAt&apiKey=b7f1eb4fa60842f5ae8e579f27e829a5 in Postman
