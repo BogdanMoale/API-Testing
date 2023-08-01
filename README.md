@@ -7,14 +7,14 @@ API Testing in Postman
 Get all articles about Oneplus 7t smartphone from a specific date ubtil the present day , sorted by recent first.
 
 **Steps to Reproduce:**
-1. Go to https://newsapi.org/v2/everything?q=Oneplus 7t&from=2023-06-31&sortBy=publishedAt&apiKey=b7f1eb4fa60842f5ae8e579f27e829a5 in Postman
+1. Go to https://newsapi.org/v2/everything?q=Oneplus7t&from=2023-06-31&sortBy=publishedAt&apiKey=b7f1eb4fa60842f5ae8e579f27e829a5 in Postman
 2. Send the endpoint
 
 **Expected result:**
 User should be able to get all articles about Oneplus 7t from the date 2023-06-31 forward, sorted by the recent articles first
 
 **Query Params:** <br />
-* q: Oneplus 7t  <br />
+* q: Oneplus7t  <br />
 * from: 2023-06-31  <br />
 * sortBy: publishedAt  <br />
 * apiKey: b7f1eb4fa60842f5ae8e579f27e829a5  <br />
