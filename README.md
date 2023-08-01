@@ -13,7 +13,7 @@ Get all articles about Oneplus 7t smartphone from a specific date ubtil the pres
 **Expected result:**
 User should be able to get all articles about Oneplus 7t from the date 2023-06-31 forward, sorted by the recent articles first
 
-**Query Params:**
+**Query Params:** <br />
 q: Oneplus 7t  <br />
 from: 2023-06-31  <br />
 sortBy: publishedAt  <br />
@@ -31,7 +31,7 @@ Get all articles mentioning JavaScript from a start date to an end date, sorted 
 **Expected result:**
 User should be able to get all articles mentioning JavaScript from selected start date to selected end date
 
-**Query Params:**
+**Query Params:**<br />
 q: JavaScript  <br />
 from: 2023-07-30  <br />
 to: 2023-07-30  <br />
@@ -51,7 +51,7 @@ Top business headlines in the Romania right now.
 **Expected result:**
 User should be able to get all articles mentioning Top business headlines in the Romania in the pressent day
 
-**Query Params:**
+**Query Params:** <br />
 country: ro  <br />
 category: business  <br />
 apiKey: b7f1eb4fa60842f5ae8e579f27e829a5  <br />
@@ -67,7 +67,7 @@ All articles published by the Wall Street Journal in the last 6 months, sorted b
 **Expected result:**
 User should be able to get all articles published by the Wall Street Journal in the last 6 months
 
-**Query Params:**
+**Query Params:** <br />
 domains: wsj.com  <br />
 apiKey: b7f1eb4fa60842f5ae8e579f27e829a5  <br />
 
