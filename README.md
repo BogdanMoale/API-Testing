@@ -106,3 +106,97 @@ User should be able to get information about the tv series : The walking dead
 * type: series  <br />
 ----------------
 
+**Description:** 
+Get all users from database
+
+**Steps to Reproduce:**
+1. Go to https://qachallenge.ro/api/test_api.php?action=fetch_all in Postman
+2. Send the endpoint with GET request
+
+**Expected result:**
+User should be able to get all the information form database
+
+**Query Params:** <br />
+action=fetch_all<br />
+
+----------------
+**Description:** 
+Get single user from database
+
+**Steps to Reproduce:**
+1. Go to http://qachallenge.ro/api/test_api.php?action=fetch_single&id=736 in Postman
+2. Send the endpoint with GET request
+
+**Expected result:**
+User should be able to get the information about the selected id form database: "first_name":"Bogdan","last_name":"M"
+
+**Query Params:** <br />
+action=fetch_single<br />
+id=736<br />
+
+----------------
+**Description:** 
+Insert user in database
+
+**Steps to Reproduce:**
+1. Go to http://qachallenge.ro/api/test_api.php?action=insert in Postman
+2. Send the endpoint with POST request
+
+**Expected result:**
+User should be able to insert in database the provided first_name and last_name
+
+**Query Params:** <br />
+action=insert<br />
+
+**Body Params:** <br />
+first_name = Test <br />
+last_name = T <br />
+
+----------------
+**Description:** 
+Update user in database
+
+**Steps to Reproduce:**
+1. Go to http://qachallenge.ro/api/test_api.php?action=update in Postman
+2. Send the endpoint with POST request
+
+**Expected result:**
+User should be able to update in database the provided first_name,last_name based on the id
+
+**Query Params:** <br />
+action=update<br />
+
+
+**Body Params:** <br />
+id = 737
+first_name = Test <br />
+last_name = T <br />
+
+----------------
+**Description:** 
+Delete user in database
+
+**Steps to Reproduce:**
+1. Go http://qachallenge.ro/api/test_api.php?action=delete&id=737 in Postman
+2. Send the endpoint with POST request
+
+**Expected result:**
+User should be able to delete the record from database at the desired id
+
+**Query Params:** <br />
+action=delete<br />
+id = 737 <br />
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
